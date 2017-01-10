@@ -1,6 +1,6 @@
 {
-  "event": "ConnectTheDots",
-  "url": "https://connectthedotsex-ns.servicebus.windows.net/ehdevices/messages",
+  "event": "HowColdIsCodemash",
+  "url": "https://cm2017-ns.servicebus.windows.net/ehdevices/messages",
   "requestType": "POST",
   "json": {
     "subject": "{{s}}",
@@ -17,7 +17,7 @@
 
   "azure_sas_token": {
     "key_name": "D1",
-    "key": "mBLQGWxSkRHg7f2eRCLonHUpNS+DY0iPHclxjf7Cmvk="
+    "key": "30fpGKkPgzpKYXrl5nxYbb6OwIN/2h2ulVHXCsWxrpU="
   },
   "mydevices": true
 }
