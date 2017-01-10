@@ -70,7 +70,7 @@ void loop()
   //Emit the payload to the serial port for monitoring purposes
   Serial.println(payload);
   //Send the temperature data payload
-  Particle.publish("ConnectTheDots", payload);
+  Particle.publish("HowColdIsCodemash", payload);
   //Wait before sending the next message to avoid Particle cloud rate limit errors
   delay(sendDelay);
 
@@ -79,7 +79,7 @@ void loop()
   //Emit the payload to the serial port for monitoring purposes
   Serial.println(payload);
   //Send the humidity data payload
-  Particle.publish("ConnectTheDots", payload);
+  Particle.publish("HowColdIsCodemash", payload);
    //Wait before sending the next message to avoid Particle cloud rate limit errors
   delay(sendDelay);
 
